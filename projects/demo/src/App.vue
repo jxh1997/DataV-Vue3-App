@@ -1,10 +1,9 @@
 <script setup lang="ts">
-// import Index from "@/pages/index.vue";
+import Index from "@/pages/index.vue";
 </script>
 
 <template>
-  111
-    <!-- <Index /> -->
+    <Index />
 </template>
 
 <style lang="less">
@@ -15,9 +14,11 @@ body {
     margin: 0;
     padding: 0;
 }
+
 #app {
     font-size: 15px;
     font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
 }
+
 @import "./main.less";
 </style>

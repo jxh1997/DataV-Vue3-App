@@ -5,6 +5,7 @@ import { resolve } from "path";
 import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
+  base: process.env.NODE_ENV === "production" ? "/dataV-vue3-app/" : "/",
   plugins: [vue()],
 
   // 开发服务器配置
